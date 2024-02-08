@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+
+.Login{
+  background-image:url("/src/Images/loginback2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.Login img{
+  height: 450px;
+  margin-top: 50px;
+  margin-right: -200px;
+}
+.LogBox{
+  background-color: rgba(0, 0, 0,0.5);
+  border-radius: 20px;
+  width:370px;
+  height: 400px;
+  margin-top: 100px;
+  filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+ 
+}
+.logsignButton{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top:-22px;
+  margin-bottom: 30px;
+}
+.logsignButton Button{
+  
+  color: brown;
+  height: 50px;
+  width:185px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 600;
+}
+input{
+  margin-bottom: 15px;
+  width: 200px;
+  filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
+}
+.logbut1{
+  border-top-left-radius:20px ;
+  background-color: #f39d9d;
+  filter: drop-shadow(0 0 0.3rem rgb(255, 255, 255));
+}
+.signbut1{
+  border-top-right-radius:20px ;
+  background-color: #f39d9d;
+  
+}
+.logbut2{
+  border-top-left-radius:20px ;
+  background-color: #f39d9d;
+  
+}
+.signbut2{
+  border-top-right-radius:20px ;
+  background-color: #f39d9d;
+  filter: drop-shadow(0 0 0.3rem rgb(255, 255, 255));
+}
+.loginContents{
+  margin-top: 70px;
+}
+.signContents{
+  margin-top: 40px;
+}
+h5{
+  text-decoration: none;
+  color: aqua;
+}
+.SignContents button{
+  background-color: #f15555fe;
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  height: 30px;
+  
+}
+.loginContents button{
+  background-color: #f15555fe;
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  height: 30px;
+  
+}
+.SignContents button:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 35, 35));
+}
+.loginContents button:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 35, 35));
+}
+@media screen and (max-width : 600px) {
+  .Login img{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+  }
+  .LogBox{
+    
+    width:270px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  .Login{
+    height:800px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  }
+  .logsignButton Button{
+    width:135px;
+  }
+}
+@media screen and (min-width : 600px) and (max-width : 1000px) {
+  .Login img{
+    height: 250px;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+
+  }
+  .LogBox{
+    
+    width:370px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+ 
+  .logsignButton Button{
+    width:185px;
+  }
+}
+.error{
+  color: aliceblue;
+}

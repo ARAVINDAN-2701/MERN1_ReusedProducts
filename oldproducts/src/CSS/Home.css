@@ -1,0 +1,92 @@
+.Homebar{
+    margin-top: -20px;
+    background-color: rgb(252, 252, 252);
+    
+}
+.search{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: #012542;
+    width: 1370px;
+    height: 60px;
+    padding-top: 40px;
+    
+    
+    
+}
+.search input{
+    float: left;
+    height: 30px;
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+    margin-left: 20px;
+}
+@media screen and (max-width : 700px) {
+    .search input{
+        margin-left: 0px;
+        width: 120px;
+        filter: drop-shadow(0 0 0.3rem rgb(255, 40, 40));
+    }
+
+}
+.HomeContent{
+    margin-top: 0%;
+    min-height: 700px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:#af0f19;
+    padding: 20px;
+}
+.Contents{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+    border: solid #fffeff 10px;
+    filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+    padding: 10px;
+}
+.IMAGE{
+
+    background-color: aqua;
+    height: 200px;
+}
+.cate{
+    font-family: cursive;
+}
+.type , .name{
+    text-align: left;
+}
+.price{
+    margin-top: 10px;
+    text-align: left;
+}
+.offer{
+    float: right;
+    margin-top: -60px;
+}
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.interest{
+    float: right;
+    margin-top: -20px;
+    background-color: black;
+    color: aliceblue;
+    width: 114px;
+    
+}
+.viewInterests{
+    text-align: left;
+}
+.delete{
+    float: right;
+    margin-top: -35px;
+    background-color: black;
+    color: aliceblue;
+}
